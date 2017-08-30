@@ -41,7 +41,8 @@ h6 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin: 1em 0 0 0; }
 
 section {
   padding: 100px 0; }
@@ -63,7 +64,7 @@ section {
     font-weight: 200;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: #fcbd20; }
+      color: #222222; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     padding: 8px 10px;
@@ -97,7 +98,7 @@ section {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-nav > li > a:hover,
         #mainNav .navbar-nav > li > a:focus:hover {
-          color: white; }
+          color: #fdcc52; }
       #mainNav.navbar-shrink {
         border-color: rgba(34, 34, 34, 0.1);
         background-color: white; }

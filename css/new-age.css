@@ -151,9 +151,10 @@ background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2
 section.warum .section-heading {
           margin-bottom: 100px; }
           section.warum .section-heading h2 {
-            margin-top: 0; }
+            margin-top: .5em;
+            margin-bottom: .8em;}
           section.warum .section-heading p {
-            margin-bottom: 0; }
+            margin-bottom: .8em; }
 
         section.warum .device-container,
         section.warum .feature-item {

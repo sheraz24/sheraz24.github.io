@@ -1,0 +1,131 @@
+<!--
+	This file is fork of studi-mat.
+
+	studi-mat is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 or 3 of the License, or
+	(at your option) any later version.
+
+	studi-mat is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU Library General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software Foundation,
+	Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Science-O-Mat</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Science-O-Mat" />
+		<meta name="keywords" content="Science-O-Mat, March for Science Berlin, Bundestagswahl 2017, Wissenschaft"/>
+		<meta name="language" content="de" />
+		<meta name="Content-Language" content="de" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/style.css" >
+		<link href="https://fonts.googleapis.com/css?family=Lato:900|Open+Sans" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="middle">
+			<a id="logo" href="http://sheraz24.github.io/" title="zur Startseite"></a>
+			<!--<a id="language" href="#" data-studimat-lang="switchLangShort"></a>-->
+			<h1 data-studimat-lang="header"></h1>
+			<noscript data-studimat-lang="js"></noscript>
+
+<!--Container 1 - Einleitung-->
+			<div class="container container_1">
+				<span data-studimat-lang="einleitung"></span>
+
+				<div class="containerFooter">
+					<div id="startmatowahl" class="button" data-studimat-lang="losgehts"></div>
+				</div>
+			</div>
+
+<!--Container 2 - Fragen-->
+			<div id="questioncontainer" class="container container_2">
+				<div class="question">
+					<span class="fragencounter"><span class="question-number"></span> <span data-studimat-lang="of"></span> <span class="question-count"></span></span>
+					<h2 class="title"></h2>
+					<p class="description">...</p>
+				</div>
+				<div class="voting">
+					<a href="#" class="vote vote-ja" data-vote="+" data-number="0" data-studimat-lang="yes"></a>
+					<a href="#" class="vote vote-enth" data-vote="0" data-number="0" data-studimat-lang="maybe"></a>
+					<a href="#" class="vote vote-nein" data-vote="-" data-number="0" data-studimat-lang="no"></a>
+					<a href="#" class="vote vote-ueber" data-vote="skip" data-number="0" data-studimat-lang="skip"></a>
+				</div>
+				<div id="jumpto"></div>
+				<div class="containerFooter">
+				</div>
+			</div>
+
+<!--Container 3 - Weighting-->
+			<div id="weighting"  class="container container_3">
+				<h2 data-studimat-lang="weighting"></h2>
+				<span data-studimat-lang="gtxt"></span>
+
+				<table></table>
+				<div></div>
+
+				<div id="zumresult" class="button" data-studimat-lang="next"></div>
+				<div class="containerFooter">
+				</div>
+			</div>
+
+<!--Container 4 - Eregebnisse-->
+			<div id="results"  class="container container_4">
+				<span data-studimat-lang="result"></span>
+				<div id="result_short"><!-- bar charts --></div>
+
+				<div id="result_long">
+					<table></table>
+				</div>
+
+				<span data-studimat-lang="furtherinfos"></span>
+
+				<p><strong>CDU/CSU</strong><br />
+					<a href="https://www.cducsu.de/">https://www.cducsu.de/</a>
+				</p>
+				<p><strong>FDP</strong><br />
+					<a href="https://www.fdp.de/">https://www.fdp.de/</a>
+				</p>
+				<p><strong>SPD</strong><br />
+					<a href="https://www.spd.de/">https://www.spd.de/</a>
+				</p>
+				<p><strong>Linke</strong><br />
+					<a href="https://die-linke.de/start/">https://die-linke.de/start/</a>
+				</p>
+				<p><strong>Grüne</strong><br />
+					<a href="https://www.gruene.de/landingpages/bundestagswahl-2017-buendnis-90die-gruenen.html#/">https://www.gruene.de/landingpages/bundestagswahl-2017-buendnis-90die-gruenen.html#/</a>
+				</p>
+				<p><strong>Piraten</strong><br />
+					<a href="https://www.piratenpartei.de">https://www.piratenpartei.de</a>
+				</p>
+				<p><strong>AfD</strong><br />
+					<a href="https://www.afd.de/">https://www.afd.de/</a>
+				</p>
+				<div class="social-media">
+					<a href="https://twitter.com/intent/tweet?text=Wie+stehen+die+Parteien+zu+wissenschaftlichen+Themen%3F+Der+%40ScienceOMat+gibt+Antwort%3A+scienceomat.de+%23BTW2017+%23btw17+%23scienceomat" class="twitter" target="_blank" data-show-count="false" data-lang="de"><span class="fa fa-twitter"></span><span class="share_text">tweet</span></a>
+				</div>
+				<div class="containerFooter">
+				</div>
+			</div>
+
+<!--Social Media-->
+
+
+		</div>
+		<footer>
+			<p id="extras"><a href="http://sheraz24.github.io/impressum.html">Impressum</a></p>
+		</footer>
+
+		<script type="text/javascript" src="lang/de.js"></script>
+		<script type="text/javascript" src="lang/en.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

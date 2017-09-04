@@ -1,0 +1,568 @@
+/* roboto*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Regular-webfont.eot');
+    src: url('../fonts/RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url('../fonts/RobotoSlab-Bold-webfont.eot');
+    src: url('../fonts/RobotoSlab-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoSlab-Bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoSlab-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoSlab-Bold-webfont.svg#roboto_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family:FontAwesome;
+    src: url(../fonts/fontawesome-webfont.eot?v=4.3.0);
+    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0) format('embedded-opentype'),
+         url(../fonts/fontawesome-webfont.woff2?v=4.3.0) format('woff2'),
+         url(../fonts/fontawesome-webfont.woff?v=4.3.0) format('woff'),
+         url(../fonts/fontawesome-webfont.ttf?v=4.3.0) format('truetype'),
+         url(../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.fa-twitter:before{content:"\f099"}
+.fa-facebook:before{content:"\f09a"}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 140%;
+	border-top: 10px solid #204295
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+p, table, #explanation {
+	margin: 12px 0;
+}
+a, a:hover, a:visited, a:active {
+	color: #f2951f;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p, table, ul, ol {
+	line-height: 140%;
+	font-size: 14px;
+	margin:8px 0 12px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Lato' sans-serif;
+	/*font-weight: 500;*/
+}
+h1 {
+	font-size: 17pt;
+	margin: 20px 0 10px 0
+}
+
+h2 {
+	font-size: 14pt;
+	margin: 18px 0 10px 0
+}
+h3 {
+	margin: 20px 0 10px 0;
+	/*font-weight: 700;*/
+}
+
+
+ul, ol {
+	margin-left:40px;
+}
+ul li {
+	list-style-type: square
+}
+
+strong, b {
+	font-weight: normal;
+}
+
+
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 140%;
+	background-color:#fff;
+	color:#000000;
+	/*font-weight: 400;*/
+}
+
+
+/* hidden except for screen readers */
+.sr-hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.voting:after, #questioncontainer:after, #jumpto:after,.result_new_partie:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+td {
+	padding: 4px 0  4px 0;
+}
+
+label, checkbox {
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+#middle, footer {
+	position: relative;
+	width:100%;
+	max-width: 680px;
+	box-sizing: border-box;
+	text-align:left;
+	padding: 10px;
+	margin: auto auto;
+}
+
+.container {
+	display: none;
+}
+
+#logo {
+	background: url('../img/scienceomatapp.png') center center;
+	width: 160px;
+	height: 160px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#language{
+	position: absolute;
+	top: 7px;
+	right: 10px;
+}
+
+/* Buttons */
+
+
+#startmatowahl, .button {
+	display: block;
+	padding: 8px 12px;
+	/*margin: 0 0 8px 0;*/
+	color: #fff;
+	cursor: pointer;
+	background: #55BD00;
+	transition: background 0.05s linear;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  text-align: center;
+}
+
+
+/*#startmatowahl {
+	float: left;
+}
+.button {
+	float: right;
+}*/
+
+#startmatowahl:hover, .button:hover {
+	background: #50B200 ;
+}
+
+.button.back {
+	clear: both;
+	float: left;
+  margin-top: 0.5em;
+	background-color: #F0F0F0 !important;
+	color: #000;
+	transition: background 0.07s linear;
+}
+
+.button.back:hover {
+	clear: both;
+	float: left;
+	background-color: #cecece !important;
+}
+
+#showContainer2 {
+  clear:none;
+}
+
+#questioncontainer {
+  display: none;
+	margin: 15px 0 15px 0;
+}
+
+.voting {
+	margin-top: 1px;
+	float: right;
+}
+
+.vote, a.vote:hover, a.vote:visited {
+	width: auto;
+	float: left;
+	margin-left: 1px;
+	padding: 8px 18px;
+	text-align: center;
+	cursor: pointer;
+	color: #000;
+	text-decoration: none;
+	min-width: 50px;
+}
+
+
+a.vote-ja, a.vote-nein, a.vote-enth {
+	background: #000;
+	color: #fff !important;
+}
+
+/* hover just for large screens, because they might have a mouse */
+@media (min-device-width: 800px) {
+	a.vote:hover {
+		text-decoration: underline ; /*#f2951f*/
+	}
+}
+
+a.vote:hover.vote-ueber:active, a.vote-ueber:active {
+	background-color: transparent
+}
+
+.vote-ueber, a.vote:hover.vote-ueber {
+	background: transparent;
+	margin-right: 1px;
+	padding: 0;
+	margin: 20px 0 25px 0;
+	font-size: 9pt;
+	text-align: center;
+	cursor: pointer;
+	clear: left;
+	float: right;
+}
+
+#jumpto {
+	float: left;
+}
+
+#jumpto a {
+	cursor: default;
+	display: inline-block;
+	height: 0.5em;
+	width: 0.5em;
+	margin-left: 0.5em;
+	background: black;
+  outline: 0;
+}
+
+#jumpto a.unanswered {
+  pointer-events: none;
+}
+
+#jumpto a.shown {
+  background: #f2951f;
+}
+
+#jumpto a.active {
+  height: 0.75em;
+}
+
+.question {
+	height: auto;
+	margin: 15px 0 0 0;
+	background: #f2951f;
+	padding: 10px 10px 20px 10px;
+	min-height: 12em;
+}
+
+.question .fragencounter {
+  float: right;
+}
+
+.question p a,
+.question p a:hover,
+.question p a:visited,
+.question p a:active {
+	color: #ffffff /* color for links in the question box */
+}
+
+.containerFooter {
+	padding-top: 2em;
+	clear: both;
+}
+
+footer {
+	text-align: left;
+	clear: both;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10em;
+
+}
+
+.social-media {
+  text-align: left;
+}
+
+.social-media a, .social-media a:hover {
+  padding: 0.5em;
+  margin: 0.25em;
+  display: inline-block;
+  min-width: 5em;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media a .fa {
+  margin: auto 0.66em auto 0.5em;
+}
+
+.social-media a.facebook {
+  background-color: #3b5998;
+}
+
+.social-media a.facebook:hover {
+  background-color: #4273c8;
+}
+
+.social-media a.twitter {
+  background-color: #55acee;
+}
+
+.social-media a.twitter:hover {
+  background-color: #32bbf5;
+}
+
+#extras {
+	clear: right;
+	margin-top: 4px;
+}
+#extras a{
+  color: #d0d0d0;
+}
+
+/* resultpage*/
+#result_short, #result_long {
+	margin: 30px 0;
+}
+#result_short table{
+	width: 100%;
+}
+.expandShortCol {
+	width: 80%;
+	min-width: 100px;
+}
+
+.result_new_partie {
+	margin-bottom: 6px;
+	font-weight: 700;
+	background: #F0F0F0;
+	position: relative;
+}
+.barchart_name, .barchart {
+	padding: 3px;
+}
+.barchart_name {
+
+	position: absolute;
+	top: 0px
+	box-sizing: border-box;
+}
+.barchart {
+	float: right;
+	text-align: right;
+	color: #fff;
+	min-width: 30px;
+	background-color: #f2951f;
+	box-sizing: border-box;
+}
+#result_long table {
+	width: 100%;
+}
+
+#result_long table tr th, #result_long table tr td{
+	padding: 6px 3px 6px 3px;
+}
+#result_long table tr th {
+	font-weight: 700;
+	text-align: center;
+}
+#result_long tr.expandRow {
+	transition: background 0.08s linear;
+	cursor: pointer;
+}
+#result_long tr.expandRow:nth-child(4n+2) {
+  background: #f0f0f0;
+}
+#result_long tr.expandRow:hover  {
+	background: #cecece
+}
+#result_long tr.expandRow.double  {
+	background: #f2951f;
+}
+#result_long tr.expandRow.double:hover  {
+	background: #db800d;
+}
+#result_long tr.expandRow.showResult {
+	transition: background 0.1s linear;
+	font-weight: bold;
+}
+#result_long tr.expandRow.showResult td:first-of-type{
+	background: url('../img/pfeil2.png') 3px 10px no-repeat !important;
+	padding-left: 16px;
+}
+#result_long tr.expandRow td:first-of-type{
+	background: url('../img/pfeil1.png') 3px 10px no-repeat;
+	padding-left: 16px;
+}
+#result_long tr.resultReason td {
+	padding: 0 6px 0 6px;
+}
+#result_long tr.resultReason {
+  display: none;
+}
+#result_long tr.resultReason.showResult {
+  display: table-row;
+}
+#result_long tr td.ownresult {
+	border-left: 1px solid #757575;
+	border-right: 1px solid #757575;
+}
+
+.reasonDiv {
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+.reasonDiv h3 {
+	font-weight: 700;
+}
+
+/*icons*/
+.w_pro, .w_against, .w_neutral, .w_skip {
+	background-image: url('../img/icons_minimal.png');
+	width: 16px;
+	height: 16px;
+	background-position: 0px 0px;
+	margin: 0 auto;
+}
+.w_pro {
+	background-position: 0px 0px
+}
+.w_against {
+	background-position: -16px 0px
+}
+.w_neutral {
+	background-position: -32px 0px
+}
+.w_skip {
+	background-position: -48px 0px
+}
+
+div.boxThese {
+  display: block;
+  position: relative;
+  padding: 10px;
+  height: auto;
+}
+
+div.these {
+  margin-left: 30px;
+}
+
+.boxThese input {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.these h3{
+  font-weight: 800;
+  font-size: 16px;
+}

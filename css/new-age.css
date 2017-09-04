@@ -90,7 +90,9 @@ section {
       border-color: transparent;
       background-color: transparent; }
       #mainNav .navbar-brand {
-        color: fade(white, 70%); }
+        color: fade(white, 70%);
+        display:none
+      }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: white; }
       #mainNav .navbar-nav > li > a,
@@ -103,7 +105,9 @@ section {
         border-color: rgba(34, 34, 34, 0.1);
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #222222; }
+          display: inherit;
+          color: #222222;
+          }
           #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
             color: #fdcc52; }
         #mainNav.navbar-shrink .navbar-nav > li > a,

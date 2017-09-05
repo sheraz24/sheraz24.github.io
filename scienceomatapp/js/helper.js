@@ -88,8 +88,7 @@ var helper = function(){
     for(var i = 0; i < langElements.length; i++) {
       var element = langElements[i];
       var lang_val = element.getAttribute('data-studimat-lang');
-      if (language_array[lang_val] !== undefined &&
-          element.getAttribute("data-studimat-lang-lastval") != language_array[lang_val]) {
+      if (language_array[lang_val] !== undefined && element.getAttribute("data-studimat-lang-lastval") != language_array[lang_val]) {
         element.innerHTML = language_array[lang_val];
         element.setAttribute("data-studimat-lang-lastval", language_array[lang_val]);
       }

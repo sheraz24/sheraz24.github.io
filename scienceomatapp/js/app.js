@@ -181,7 +181,7 @@ var studimat = function() {
       bar_chart.innerText = percentage+' %';
       result.appendChild(bar_chart_name);
       result.appendChild(bar_chart);
-      $('#result_short').append(result);
+      $('#result_short').appendChild(result);
     }
 
     // create the table with the statements of all parties
@@ -348,7 +348,7 @@ var studimat = function() {
       }
     };
     // TODO: this should be configurable
-    httpRequest.open('GET', "data/demo_de.json");
+    httpRequest.open('GET', "data/demo_"+self.wahlomat_language+".json");
     httpRequest.send();
   }
 
@@ -438,9 +438,9 @@ var studimat = function() {
       showResult();
     };
 
-    $('#language').onclick = function() {
-      toggleLanguage();
-    };
+    //$('#language').onclick = function() {
+    //  toggleLanguage();
+    //};
 
 
     // callback for clicking on the logo

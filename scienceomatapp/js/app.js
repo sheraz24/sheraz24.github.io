@@ -236,6 +236,8 @@ var studimat = function() {
       statementsRow.colSpan = sortedShortNames.length + 2;
 
       td = document.createElement('td');
+      td.colSpan = '6'
+      td.style = 'width:100%'
       reasonDiv = document.createElement('div');
       reasonDiv.className = 'reasonDiv';
 

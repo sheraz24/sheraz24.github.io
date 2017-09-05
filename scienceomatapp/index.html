@@ -27,12 +27,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="css/style.css" >
 		<link href="https://fonts.googleapis.com/css?family=Lato:900|Open+Sans" rel="stylesheet">
+		<meta property="og:url" content="http://scienceomat.de" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Science-O-Mat" />
+		<meta property="og:description" content="Vergleichen Sie mit Hilfe des Science-O-Mat Ihre Standpunkte zu unseren Thesen mit den Antworten dieser Parteien!" />
+		<meta property="og:image" content="scienceomatapp.png" />
 	</head>
 
 	<body>
+<!--facebook plugin-->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.10";
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
 		<div id="middle">
 			<a id="logo" href="http://sheraz24.github.io/" title="zur Startseite"></a>
-			<!--<a id="language" href="#" data-studimat-lang="switchLangShort"></a>-->
 			<h1 data-studimat-lang="header"></h1>
 			<noscript data-studimat-lang="js"></noscript>
 
@@ -104,12 +118,13 @@
 				</p>
 				<p><strong>Piraten</strong><br />
 					<a href="https://www.piratenpartei.de">https://www.piratenpartei.de</a>
-				</p>
-				<p><strong>AfD</strong><br />
-					<a href="https://www.afd.de/">https://www.afd.de/</a>
-				</p>
+				</p>		
 				<div class="social-media">
-					<a href="https://twitter.com/intent/tweet?text=Wie+stehen+die+Parteien+zu+wissenschaftlichen+Themen%3F+Der+%40ScienceOMat+gibt+Antwort%3A+scienceomat.de+%23BTW2017+%23btw17+%23scienceomat" class="twitter" target="_blank" data-show-count="false" data-lang="de"><span class="fa fa-twitter"></span><span class="share_text">tweet</span></a>
+					<a href="https://twitter.com/intent/tweet?text=Wie+stehen+die+Parteien+zu+wissenschaftlichen+Themen%3F+Der+%40ScienceOMat+gibt+Antwort%3A+scienceomat.de+%23BTW2017+%23btw17+%23scienceomat" class="twitter" target="_blank" data-show-count="false" data-lang="de"><span class="fa fa-twitter"></span><span class="share_text">Twittern</span></a>
+					<div class="fb-share-button" data-href="http://scienceomat.de" data-layout="button" data-size="large" data-mobile-iframe="true">
+						<a class="fb-xfbml-parse-ignore facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fscienceomat.de%2F&amp;src=sdkpreparse"><span class="fa fa-facebook"></span><span class="share_text">Teilen</span>
+						</a>
+					</div>
 				</div>
 				<div class="containerFooter">
 				</div>
@@ -127,5 +142,6 @@
 		<script type="text/javascript" src="lang/en.js"></script>
 		<script src="js/helper.js"></script>
 		<script src="js/app.js"></script>
+
 	</body>
 </html>

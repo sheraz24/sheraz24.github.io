@@ -236,7 +236,6 @@ label, checkbox {
 #startmatowahl, .button {
 	display: block;
 	padding: 8px 12px;
-	/*margin: 0 0 8px 0;*/
 	color: #fff;
 	cursor: pointer;
 	background: #55BD00;
@@ -248,13 +247,6 @@ label, checkbox {
 }
 
 
-/*#startmatowahl {
-	float: left;
-}
-.button {
-	float: right;
-}*/
-
 #startmatowahl:hover, .button:hover {
 	background: #50B200 ;
 }
@@ -263,6 +255,7 @@ label, checkbox {
 	clear: both;
 	float: left;
   margin-top: 0.5em;
+  margin-left: 0.25em;
 	background-color: #F0F0F0 !important;
 	color: #000;
 	transition: background 0.07s linear;
@@ -392,7 +385,7 @@ footer {
 }
 
 .social-media a, .social-media a:hover {
-  padding: 0.5em;
+  padding: 0.5em, 0.5em, 1.1em, 0.5em;
   margin: 0.25em;
   display: inline-block;
   min-width: 5em;

@@ -1,2 +1,1 @@
-# sheraz24.github.io
-Website Tests
+# Science-O-Mat

@@ -25,7 +25,31 @@
 
         <!-- Custom styles for this template -->
         <link href="css/new-age.css" rel="stylesheet">
-
+      </script>
+      <!--Cookie Banner-->
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+      <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#edeff5",
+              "text": "#838391"
+            },
+            "button": {
+              "background": "#4b81e8"
+            }
+          },
+          "position": "bottom-right",
+          "content": {
+            "message": "Um diese Webseite für Sie optimal zu gestalten und fortlaufend verbessern zu können, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu.\n\nWeitere Informationen zu Cookies erhalten Sie in unserer ",
+            "dismiss": "Einverstanden!",
+            "link": "Datenschutzerklärung",
+            "href": "/datenschutz.html"
+          }
+        })});
+      </script>
       </head>
 
       <body id="page-top">
